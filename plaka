@@ -20,7 +20,7 @@ index = plakalar.index(plaka)
 if plaka in plakalar:
     print(f"{plaka} nolu şehir: {sehirler[index]}.")
 else:
-    print("Bu numara sistemde bulunmamaktadır.")
+    print("Bu plaka sistemde bulunmamaktadır.")
 
 def speak(string):
     tts = gTTS(text=string, lang="tr")
